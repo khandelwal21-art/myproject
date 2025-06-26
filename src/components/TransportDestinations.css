@@ -1,0 +1,43 @@
+.sourcelabel{
+    margin-right:220px;
+}
+.sourceinput{
+  margin-right: 220px;
+}
+
+
+autocomplete-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000; 
+    
+    /* Ensure it's above other elements */
+  }
+  .autocomplete-item{
+    cursor: pointer;
+  
+  }
+  
+  .autocomplete-item:hover {
+    background-color: #f0f0f0;
+  }
+
+    
+@media (max-width: 860px) and (min-width: 768px) {
+   .form-box{
+   max-width:350px;
+   }
+   .form-box input{
+    max-width:300px;
+   }
+
+  }
+ 
